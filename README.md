@@ -63,7 +63,6 @@ ros2 run t800_ros_api api_server
 | GET | `/api/v1/localization/status` | `/my_ros1/localization/status` |
 | GET | `/api/v1/localization/pose_status` | `/my_ros1/localization/pose_status` |
 | GET | `/api/v1/localization/base_footprint_pose` | `/my_ros1/localization/base_footprint_pose` |
-| POST | `/api/v1/localization/relocalize` | `/my_ros1/localization/relocalize` |
 | GET | `/api/v1/health` | 网关启动及服务可用性检查 |
 | GET | `/docs` | FastAPI 交互式文档 |
 
